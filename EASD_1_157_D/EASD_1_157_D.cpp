@@ -40,9 +40,10 @@ using namespace std;
 
 // Menginputkan Prosedur
 void input(int arr[], int size) {
-	cout << "Masukkan " << size << " Elemen Integer Array :" << endl;
-	for (int i = 0; i < size; i++) {
-		cin >> arr[i];
+	cout << "Masukkan " << size << " Elemen Array :" << endl;
+    for (int i = 0; i < size; i++) {
+        cout << "Masukkan elemen ke-" << i + 1 << " dari " << size << " elemen array:";
+        cin >> arr[i];
 	}
 }
 
@@ -71,13 +72,14 @@ void display(int arr[], int size) {
     cout << endl;
 }
 
+// Mengeksekusi Progam Selection Sort
 int main() {
-    int n = 79 + 20 - 2 * 15 + 10 + 20;                                        // Menghitung jumlah maksimal data berdasarkan 2 NIM belakang
+    int n = (79 + 20) - (2 * 15) + (10 + 20);                                  // Menghitung jumlah maksimal data berdasarkan 2 NIM belakang
     int arr[n];
     string nama = "Maajid";
     input(arr, n);
     selectionSort(arr, n);
     display(arr, n);
-    return 0;
+    return 0;
 }
 
