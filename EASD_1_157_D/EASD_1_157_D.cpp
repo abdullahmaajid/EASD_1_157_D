@@ -9,3 +9,6 @@
 
 // PERTANYAAN 4 : Dari 6 algorithma yang sudah dipelajari. Algortihma manakah yang paling efisien untuk mengurutkan data yang ukurannya kecil.Jelaskan kenapa anda memilih itu.
 // JAWAB	    : Karena Selection Sort memiliki kompleksitas waktu O(n^2) yang relatif lebih cepat dibandingkan dengan algoritma Insertion Sort dan Bubble Sort, yang kompleksitas waktu nya juga O(n^2). Selain itu, Selection Sort juga sederhana dan mudah dipahami dalam implementasinya, sehingga lebih mudah untuk digunakan dalam pengurutan data kecil.
+
+// PERTANYAAN 5 : Sebutkan dari algorithma yang telah dipelajari mana yang termasuk kedalam Quadratic dan mana yang termasuk kedalam Loglinear.
+// PERTANYAAN   : Quadratic (O(n^2)): Bubble Sort, Selection Sort, Insertion Sort. Loglinear (O(n log n)): Merge Sort, Quick Sort
