@@ -40,7 +40,7 @@ using namespace std;
 
 // Menginputkan Prosedur
 void input(int arr[], int size) {
-	cout << "Masukkan " << size << " Elemen Integer Array:" << endl;
+	cout << "Masukkan " << size << " Elemen Integer Array :" << endl;
 	for (int i = 0; i < size; i++) {
 		cin >> arr[i];
 	}
@@ -62,7 +62,14 @@ void selectionSort(int arr[], int size) {
     }
 }
 
-
+// Menampilkan Prosedur
+void display(int arr[], int size) {
+    cout << "Array yang telah diurutkan : ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
 
 
 
