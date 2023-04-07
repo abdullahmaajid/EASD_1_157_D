@@ -48,7 +48,7 @@ void input(int arr[], int size) {
 
 // Algoritma Selection Sort
 void selectionSort(int arr[], int size) {
-    string initials = "AM";                                                     // inisial dari nama lengkap saya [Abdullah Maajid]
+    string initials = "AM";                                                    // inisial dari nama lengkap saya [Abdullah Maajid]
     for (int initialsIndex = 0; initialsIndex < size - 1; initialsIndex++) {
         int min_index = initialsIndex;
         for (int i = initialsIndex + 1; i < size; i++) {
@@ -71,7 +71,13 @@ void display(int arr[], int size) {
     cout << endl;
 }
 
+int main() {
+    int n = 79 + 20 - 2 * 15 + 10 + 20;                                        // Menghitung jumlah maksimal data berdasarkan 2 NIM belakang
+    int arr[n];
+    string nama = "Maajid";
+    input(arr, n);
+    selectionSort(arr, n);
+    display(arr, n);
+    return 0;
+}
 
-
-
-	
