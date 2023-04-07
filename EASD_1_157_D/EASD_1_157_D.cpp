@@ -12,3 +12,25 @@
 
 // PERTANYAAN 5 : Sebutkan dari algorithma yang telah dipelajari mana yang termasuk kedalam Quadratic dan mana yang termasuk kedalam Loglinear.
 // PERTANYAAN   : Quadratic (O(n^2)): Bubble Sort, Selection Sort, Insertion Sort. Loglinear (O(n log n)): Merge Sort, Quick Sort
+
+// Buatlah sebuah program yang mengimplementasikan selection sort menggunakan bahasan c++.
+
+// Berikut merupakan algortithma selection sort :
+
+   // 1. Repeat steps 2 and 3 varying j from 0 to n – 2
+   
+   // 2. Find the minimum value in arr[j] to arr[n – 1]:
+         // a.Set min_index = j
+         // b.Repeat step c varying i from j + 1 to n – 1 c.If arr[i] < arr[min_index] :
+		 // c. If arr[i] < arr[min_index]:
+		    // 1. min_index = i
+			
+   // 3. Swap arr[j] with arr[min_index]
+
+// There are additional requirements to create the program :
+		// a. The maximum number of data is the sum of the last two digits of your student number + 20-2 x 15 + 10 + 20
+		// b.  Change the "j" in the algorithm to the two initials of your name. 
+        // (example: if your name is Fahmi Azhar then “f” is changed to “FA”, if your name consists of more than 2 words, the initials are taken from the first letter of your name and one letter from your last name)
+		// c. Change "arr" with your nickname.
+		// d. Code must have 3 Procedure Input, Algorithm and Display.
+	
