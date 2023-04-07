@@ -35,7 +35,17 @@
 		// d. Code must have 3 Procedure Input, Algorithm and Display.
 
 #include <iostream>
+#include <string>
 using namespace std;
+
+// Menginputkan Prosedur
+void input(int arr[], int size) {
+	cout << "Masukkan " << size << " Elemen Integer Array:" << endl;
+	for (int i = 0; i < size; i++) {
+		cin >> arr[i];
+	}
+}
+
 
 
 	
