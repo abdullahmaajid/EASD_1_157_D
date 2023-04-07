@@ -33,4 +33,9 @@
         // (example: if your name is Fahmi Azhar then “f” is changed to “FA”, if your name consists of more than 2 words, the initials are taken from the first letter of your name and one letter from your last name)
 		// c. Change "arr" with your nickname.
 		// d. Code must have 3 Procedure Input, Algorithm and Display.
+
+#include <iostream>
+using namespace std;
+
+
 	
